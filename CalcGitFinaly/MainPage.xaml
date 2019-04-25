@@ -7,8 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
 
-    <Grid>
-
-    </Grid>
+        </StackPanel>
+    </StackPanel>   
 </Page>
