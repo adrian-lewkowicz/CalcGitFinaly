@@ -8,12 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <StackPanel Orientation="Vertical">
-        <StackPanel Orientation="Horizontal">
-            <TextBox Name="numb1" />
+        <StackPanel Orientation="Horizontal"  Padding="40">
+            <TextBox Name="numb1" Margin="0,0,20,0"/>
             <TextBox Name="numb2" />
             <TextBox Name="numb3" />
         </StackPanel>
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal" Padding="40">
             <Button Name="add" Content="+" Click="Add_Click"/>
             <Button Name="substract" Content="-"/>
             <Button Name="multiply" Content="*"/>
