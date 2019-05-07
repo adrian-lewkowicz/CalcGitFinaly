@@ -31,5 +31,20 @@ namespace CalcGitFinaly
         {
             numb3.Text = (Convert.ToInt32(numb1.Text) + Convert.ToInt32(numb2.Text)).ToString();
         }
+
+        private void Substract_Click(object sender, RoutedEventArgs e)
+        {
+            numb3.Text = (Convert.ToInt32(numb1.Text) - Convert.ToInt32(numb2.Text)).ToString();
+        }
+
+        private void Multiply_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Divide_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
