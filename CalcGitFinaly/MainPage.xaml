@@ -15,9 +15,9 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <Button Name="add" Content="+" Click="Add_Click"/>
-            <Button Name="substract" Content="-"/>
-            <Button Name="multiply" Content="*"/>
-            <Button Name="divide" Content="/"/>
+            <Button Name="substract" Content="-" Click="Substract_Click"/>
+            <Button Name="multiply" Content="*" Click="Multiply_Click"/>
+            <Button Name="divide" Content="/" Click="Divide_Click"/>
         </StackPanel>
     </StackPanel>   
 </Page>
