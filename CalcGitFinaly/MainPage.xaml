@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <StackPanel Orientation="Vertical">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <StackPanel Orientation="Horizontal"  Padding="40">
             <TextBox Name="numb1" Margin="0,0,20,0"/>
             <TextBox Name="numb2" Margin="0,0,20,0"/>
