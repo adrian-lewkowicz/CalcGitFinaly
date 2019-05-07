@@ -9,10 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal">
-            
+            <TextBox Name="numb1" />
+            <TextBox Name="numb2" />
+            <TextBox Name="numb3" />
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-
+            <Button Name="add" Content="+"/>
+            <Button Name="substract" Content="-"/>
+            <Button Name="multiply" Content="*"/>
+            <Button Name="divide" Content="/"/>
         </StackPanel>
     </StackPanel>   
 </Page>
