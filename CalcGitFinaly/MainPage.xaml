@@ -10,14 +10,14 @@
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal"  Padding="40">
             <TextBox Name="numb1" Margin="0,0,20,0"/>
-            <TextBox Name="numb2" />
-            <TextBox Name="numb3" />
+            <TextBox Name="numb2" Margin="0,0,20,0"/>
+            <TextBox Name="numb3" Margin="0,0,20,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Padding="40">
-            <Button Name="add" Content="+" Click="Add_Click"/>
-            <Button Name="substract" Content="-" Click="Substract_Click"/>
-            <Button Name="multiply" Content="*" Click="Multiply_Click"/>
-            <Button Name="divide" Content="/" Click="Divide_Click"/>
+            <Button Name="add" Content="+" Click="Add_Click" Margin="0,0,40,0"/>
+            <Button Name="substract" Content="-" Click="Substract_Click" Margin="0,0,40,0"/>
+            <Button Name="multiply" Content="*" Click="Multiply_Click" Margin="0,0,40,0"/>
+            <Button Name="divide" Content="/" Click="Divide_Click" Margin="0,0,40,0"/>
         </StackPanel>
     </StackPanel>   
 </Page>
