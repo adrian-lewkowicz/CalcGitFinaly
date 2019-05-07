@@ -39,7 +39,7 @@ namespace CalcGitFinaly
 
         private void Multiply_Click(object sender, RoutedEventArgs e)
         {
-
+            numb3.Text = (Convert.ToInt32(numb1.Text) * Convert.ToInt32(numb2.Text)).ToString();
         }
 
         private void Divide_Click(object sender, RoutedEventArgs e)
