@@ -14,7 +14,7 @@
             <TextBox Name="numb3" />
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Button Name="add" Content="+"/>
+            <Button Name="add" Content="+" Click="Add_Click"/>
             <Button Name="substract" Content="-"/>
             <Button Name="multiply" Content="*"/>
             <Button Name="divide" Content="/"/>
